@@ -1,5 +1,10 @@
 # PowerShell-Jupyter-Examples
 
+## Running examples
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/travisez13/powershell-jupyter-examples/master?urlpath=lab)
+
+
 ## Get-Process
 
 
