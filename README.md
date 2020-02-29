@@ -7,9 +7,8 @@
 
 ## Get-Process
 
-
-[Get-Process](./Get-Process.ipynb)
+[Get-Process](https://nbviewer.jupyter.org/github/TravisEz13/PowerShell-Jupyter-Examples/blob/master/Get-Process.ipynb)
 
 ## Sierpinski's Triangle
 
-[Sierpinski's Triangle](./sierpinski.ipynb)
+[Sierpinski's Triangle](https://nbviewer.jupyter.org/github/TravisEz13/PowerShell-Jupyter-Examples/blob/master/sierpinski.ipynb)
