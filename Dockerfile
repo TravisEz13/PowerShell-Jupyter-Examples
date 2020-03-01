@@ -22,7 +22,7 @@ RUN apt-get install -y --no-install-recommends \
         libicu60 \
         libssl1.1 \
         libstdc++6 \
-        zlib1g 
+        zlib1g
 
 RUN rm -rf /var/lib/apt/lists/*
 
@@ -47,7 +47,7 @@ ENV DOTNET_RUNNING_IN_CONTAINER=true \
     DOTNET_TRY_CLI_TELEMETRY_OPTOUT=true
 
 # Copy notebooks
-COPY ./*.ipynb ${HOME}/Notebooks/
+COPY ./samples/* ${HOME}/Notebooks/
 
 # Copy package sources
 COPY ./NuGet.config ${HOME}/nuget.config
@@ -55,11 +55,11 @@ COPY ./NuGet.config ${HOME}/nuget.config
 RUN chown -R ${NB_UID} ${HOME}
 USER ${USER}
 
-#Install nteract 
+#Install nteract
 RUN pip install nteract_on_jupyter
 
 # Install lastest build from master branch of Microsoft.DotNet.Interactive from myget
-RUN dotnet tool install -g Microsoft.dotnet-interactive --version 1.0.112430 --add-source "https://dotnet.myget.org/F/dotnet-try/api/v3/index.json"
+RUN dotnet tool install -g Microsoft.dotnet-interactive --add-source "https://dotnet.myget.org/F/dotnet-try/api/v3/index.json"
 
 ENV PATH="${PATH}:${HOME}/.dotnet/tools"
 RUN echo "$PATH"
