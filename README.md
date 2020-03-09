@@ -18,7 +18,7 @@ All samples are to teach you how to use PowerShell in Jupyter using [.NET Intera
 
 ## Import CSV data and create a line chart
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/TravisEz13/PowerShell-Jupyter-Examples/master?filepath=cortanavirus.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/TravisEz13/PowerShell-Jupyter-Examples/master?filepath=coronavirus.ipynb)
 
 <!--
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/travisez13/powershell-jupyter-examples/master?urlpath=lab)
