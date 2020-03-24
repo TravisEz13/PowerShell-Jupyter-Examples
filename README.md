@@ -6,11 +6,9 @@ All samples are to teach you how to use PowerShell in Jupyter using [.NET Intera
 
 ### Get-Process
 
-
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/TravisEz13/PowerShell-Jupyter-Examples/master?filepath=Get-Process.ipynb)
 
 ### Sierpinski's Triangle
-
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/TravisEz13/PowerShell-Jupyter-Examples/master?filepath=sierpinski.ipynb)
 
@@ -18,6 +16,6 @@ All samples are to teach you how to use PowerShell in Jupyter using [.NET Intera
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/TravisEz13/PowerShell-Jupyter-Examples/master?filepath=coronavirus.ipynb)
 
-## Jupyter-Lap with all samples
+## Jupyter-Lab with all samples
 
 [![Jupyter Lab](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/travisez13/powershell-jupyter-examples/master?urlpath=lab)
